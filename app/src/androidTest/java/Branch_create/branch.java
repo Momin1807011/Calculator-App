@@ -4,21 +4,20 @@ public class branch {
 
     String name;
     int price;
-    int quantity;
+    int age;
 
-    public branch(String name, int price,int quantity) {
+    public branch(String name, int price,int age) {
         this.name = name;
         this.price = price;
-        this.quantity=quantity;
+        this.age=age;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public int getAge() {
+        return age;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getName() {
