@@ -5,7 +5,6 @@ public class branch {
     String name;
     int price;
     int age;
-
     public branch(String name, int price,int age) {
         this.name = name;
         this.price = price;
