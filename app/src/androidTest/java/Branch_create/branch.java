@@ -4,21 +4,20 @@ public class branch {
 
     String name;
     int price;
-    int quantity;
+    int thirdTry;
 
-    public branch(String name, int price,int quantity) {
+    public branch(String name, int price,int thirdTry) {
         this.name = name;
         this.price = price;
-        this.quantity=quantity;
+        this.thirdTry=thirdTry;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public int getThirdTry() {
+        return thirdTry;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-
+    public void setThirdTry(int thirdTry) {
+        this.thirdTry = thirdTry;
     }
 
     public String getName() {
