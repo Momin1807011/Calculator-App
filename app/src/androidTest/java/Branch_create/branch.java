@@ -4,29 +4,19 @@ public class branch {
 
     String name;
     int price;
-    int thirdTry;
-    String id;
-    public branch(String name, int price, int thirdTry,String id) {
+    int age;
+    public branch(String name, int price,int age) {
         this.name = name;
         this.price = price;
-        this.thirdTry=thirdTry;
-        this.id=id;
+        this.age=age;
     }
 
-    public int getThirdTry() {
-        return thirdTry;
+    public int getAge() {
+        return age;
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public void setThirdTry(int thirdTry) {
-        this.thirdTry = thirdTry;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getName() {
