@@ -5,15 +5,24 @@ public class branch {
     String name;
     int price;
     int thirdTry;
-
-    public branch(String name, int price,int thirdTry) {
+    String id;
+    public branch(String name, int price, int thirdTry,String id) {
         this.name = name;
         this.price = price;
         this.thirdTry=thirdTry;
+        this.id=id;
     }
 
     public int getThirdTry() {
         return thirdTry;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void setThirdTry(int thirdTry) {
