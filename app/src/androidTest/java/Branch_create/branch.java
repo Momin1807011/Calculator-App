@@ -18,6 +18,7 @@ public class branch {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+
     }
 
     public String getName() {
